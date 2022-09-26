@@ -1,0 +1,33 @@
+Pseudo code for implementing encryption:
+
+Add ca-certificate that was created on the raspberry pi (server) to an array in program memory.
+ca_cert[] PROGMEM <= R"EOF(
+-----BEGIN CERTIFICATE-----
+      ADD CERTIFICATE 
+-----END CERTIFICATE-----
+)EOF";
+
+Use WiFiClientSecure instead WiFiClient
+Make client/object of WiFiClientSecure 
+void verify_Fingerprint():
+ If client object connected:
+     Return
+Print => TLS connection verifying
+Print => ………
+
+The BearSSL library is used to perform all cryptography and TLS operations. 
+
+BearSSL::X509List cert(ca_cert)
+X509 is a public key distribution method.
+setTrustAnchors issue trust among communicating nodes
+setTrustAnchors(&cert)
+If client is not connected:
+    Print => reconnecting client 
+Set bool success <= False
+Success <= Store connection result
+If success:
+    Print => Successfully verified with servers !!! ->
+Else:
+    Print => Connection insecure 
+     ESP.restart()
+Client stop
