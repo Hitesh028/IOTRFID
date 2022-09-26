@@ -40,9 +40,15 @@ The fetched data is decrypted from aes256 and again decoded from base64 format.
 The tag data in normal text along with a time stamp is displayed on the GUI window in table format.   
 
 # Establishing MQTT server on Raspberry pi
+All commands are mentioned in "Establishing MQTT server on Raspberry pi" file.
 # Pseudo code of software running on esp8266 based on each requirement
+To generate code for wifimodule that establish connection between rfid reader and server using  MQTT broker open this "Pseudo code of software running on esp8266" file.
+
 # software running on Raspberry pi server
+Open "software running on Raspberry pi server.py" for code running on raspberry pi.
+
 # Security implementation
+
 
 ##### Security in this device is implemented in three ways
 ##### 1) Implement security in your wifi such as WPA2 PSK security. So an outsider will not be able to take over your network.<br/>
