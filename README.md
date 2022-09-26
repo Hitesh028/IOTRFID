@@ -43,10 +43,10 @@ The tag data in normal text along with a time stamp is displayed on the GUI wind
 # software running on Raspberry pi server
 # Security implementation
 
-Security in this device is implemented in three ways
-### Implement security in your wifi such as WPA2 PSK security. So an outsider will not be able to take over your network.
-### Securing the data stored in the database by applying encryption on base64 encoded  Tag ID . So whenever data leaks happen due to cyber attack the chances of receiving true data to the attacker will be reduced.
-### Implementing Encryption such TLS/SSL on payload that comes from  IOTRFID reader to MQTT server . So the chances of MITM is negligible.  
+##### Security in this device is implemented in three ways
+##### 1) Implement security in your wifi such as WPA2 PSK security. So an outsider will not be able to take over your network.<br/>
+##### 2) Securing the data stored in the database by applying encryption on base64 encoded  Tag ID . So whenever data leaks happen due to cyber attack the chances of receiving true data to the attacker will be reduced.<br/>
+##### 3) Implementing Encryption such TLS/SSL on payload that comes from  IOTRFID reader to MQTT server . So the chances of MITM is negligible.  
 
 # All screenshots of Outputs
 
