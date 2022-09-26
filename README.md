@@ -18,7 +18,7 @@ Output to serial monitor while flashing to ESP8266 NodeMCU
 ![Screenshot from 2022-09-26 14-54-22](https://user-images.githubusercontent.com/55538188/192242713-fafa21ea-2907-413f-bb88-72b7ec8fa647.png)
 
 
-Output on Subscribers code
+Output on Subscribers code <br/>
 ![Screenshot from 2022-09-26 14-52-03](https://user-images.githubusercontent.com/55538188/192242827-8bc49931-5ceb-4742-a1d9-a000bdde912b.png)
 
 
