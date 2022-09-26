@@ -2,17 +2,19 @@
 Building IOTRFID system with Inventory
 
 # Hardware requirement
-ESP8266 Nodemcu
-125KHz RFID Reader RC522
-Raspberry pi
-Jumper wires
-125KHz RFID Tags
+ESP8266 Nodemcu <br/>
+125KHz RFID Reader RC522 <br/>
+Raspberry pi <br/>
+Jumper wires <br/>
+125KHz RFID Tags <br/>
 
 # Tools required
-Arduino IDE
-Openssl
-MQTT Broker
-MySql
+Arduino IDE <br/>
+Openssl <br/>
+MQTT Broker <br/>
+MySql <br/>
+
+# All screenshots of Outputs
 
 Output to serial monitor while flashing to ESP8266 NodeMCU
 ![Screenshot from 2022-09-26 14-54-22](https://user-images.githubusercontent.com/55538188/192242713-fafa21ea-2907-413f-bb88-72b7ec8fa647.png)
