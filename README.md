@@ -1,5 +1,6 @@
 # IOTRFID
-Building IOTRFID system with Inventory
+Aim: Build an IOT device for Reading RFID cards i.e IOTRFID along with Inventory System and implementing security features in it.
+
 
 # Hardware requirement
 ESP8266 Nodemcu <br/>
