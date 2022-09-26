@@ -1,12 +1,16 @@
 sudo apt-get install mosquitto
-Next we can install the three parts of Mosquitto proper.
-mosquitto - the MQTT broker ( server)
-mosquitto-clients – command-line clients, very useful in debugging
-python-mosquitto - the Python language bindings
-Run commands in terminal:
-sudo apt-get install mosquitto mosquitto-clients 
-pip install paho-mosquitto
+
+->Next we can install the three parts of Mosquitto proper.
+   mosquitto - the MQTT broker ( server)
+   mosquitto-clients – command-line clients, very useful in debugging
+   python-mosquitto - the Python language bindings
+   
+# Run commands in terminal:
+   sudo apt-get install mosquitto mosquitto-clients 
+   pip install paho-mosquitto
+   
 By installing all the above requirements, add below commands in mosquitto.conf file .Then we are on our server.
+
 log_dest topic
 log_type error
 log_type warning
